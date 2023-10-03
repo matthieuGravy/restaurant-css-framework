@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap w/ Vite</title>
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <!-- Jumbotron -->
+      <div
+        class="px-4 pt-5 my-5 text-center style="
+        style="
+          background-image: url('./assets/images/pexels-marta-dzedyshko-2067431.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: none;
+          height: auto;
+        "
+      >
+        <h1 class="display-4 fw-bold">Découvrez [Nom du Restaurant]</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            un lieu enchanté où les saveurs du monde s'unissent pour créer une
+            expérience culinaire inoubliable. Embarquez pour un tour du monde
+            culinaire et laissez vos papilles explorer les saveurs du globe dans
+            notre restaurant exquis, où chaque plat raconte une histoire
+            différente de la cuisine internationale
+          </p>
+          <div
+            class="d-grid gap-2 pb-4 d-sm-flex justify-content-sm-center mb-5"
+          >
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+              Primary button
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Secondary
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Jumbotron -->
+    </header>
+
+    <div class="container py-4">
+      <!--
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <p class="col-md-8 fs-4">
+            Using a series of utilities, you can create this jumbotron, just
+            like the one in previous versions of Bootstrap. Check out the
+            examples below for how you can remix and restyle it to your liking.
+          </p>
+          <button class="btn btn-primary btn-lg" type="button">
+            Example button
+          </button>
+        </div>
+      </div>
+    -->
+      <div class="row align-items-md-stretch mb-4">
+        <div class="col-12 col-sm-12 col-md-6 mb-4">
+          <div class="h-100 p-5 text-bg-dark rounded-3">
+            <h2>Change the background</h2>
+            <p>
+              Swap the background-color utility and add a `.text-*` color
+              utility to mix up the jumbotron look. Then, mix and match with
+              additional component themes and more.
+            </p>
+            <button class="btn btn-outline-light" type="button">
+              Example button
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 mb-4">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Add borders</h2>
+            <p>
+              Or, keep it light and add a border for some added definition to
+              the boundaries of your content. Be sure to look under the hood at
+              the source HTML here as we've adjusted the alignment and sizing of
+              both column's content for equal-height.
+            </p>
+            <button class="btn btn-outline-secondary" type="button">
+              Example button
+            </button>
+          </div>
+        </div>
+      </div>
+      <footer class="pt-3 mt-4 text-body-secondary text-center border-top">
+        Matthieu Gravy &copy; 2023
+      </footer>
+    </div>
+  </body>
+</html>
