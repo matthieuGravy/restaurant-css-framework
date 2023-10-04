@@ -6,53 +6,52 @@
     <title>Bootstrap w/ Vite</title>
     <script type="module" src="./js/main.js"></script>
   </head>
-  <body>
+  <body class="bg-black">
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">[nom du restaurant]</a>
           <button
             class="navbar-toggler"
             type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarExample01"
-            aria-controls="navbarExample01"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i class="fas fa-bars"></i>
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/views/menu.html"
+                >Welcome</a
+              >
+              <a class="nav-link" href="/views/menu.html">Menu</a>
+              <a class="nav-link" href="/views/pictures.html">Pictures</a>
+              <a class="nav-link" href="/views/restaurants.html">Restaurants</a>
+              <a class="nav-link" href="/views/contact.html">Contact</a>
+            </div>
           </div>
         </div>
       </nav>
       <!-- Navbar -->
       <!-- Jumbotron -->
       <div
-        class="px-4 pt-5 my-5 text-center style="
+        class="text-center text-bg-dark p-2 py-4 style="
         style="
-          background-image: url('./assets/images/pexels-marta-dzedyshko-2067431.jpg');
+          background-image: url('./assets/images/wp.svg');
           background-size: cover;
           background-position: center;
           background-repeat: none;
           height: auto;
         "
       >
-        <h1 class="display-4 fw-bold">Découvrez [Nom du Restaurant]</h1>
+        <h1 class="display-2">Découvrez [Nom du Restaurant]</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
             un lieu enchanté où les saveurs du monde s'unissent pour créer une
@@ -64,7 +63,10 @@
           <div
             class="d-grid gap-2 pb-4 d-sm-flex justify-content-sm-center mb-5"
           >
-            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg px-4 me-sm-3"
+            >
               Primary button
             </button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
@@ -75,6 +77,24 @@
       </div>
       <!-- Jumbotron -->
     </header>
+
+    <div class="card text-bg-dark girls">
+      <img
+        src="./assets/images/pexels-elevate-1267701.jpg"
+        class="card-img"
+        alt="..."
+        height=""
+        width="500"
+      />
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+      </div>
+    </div>
 
     <div class="container py-4">
       <!--
@@ -92,32 +112,37 @@
         </div>
       </div>
     -->
-      <div class="row align-items-md-stretch mb-4">
-        <div class="col-12 col-sm-12 col-md-6 mb-4">
-          <div class="h-100 p-5 text-bg-dark rounded-3">
-            <h2>Change the background</h2>
-            <p>
-              Swap the background-color utility and add a `.text-*` color
-              utility to mix up the jumbotron look. Then, mix and match with
-              additional component themes and more.
-            </p>
-            <button class="btn btn-outline-light" type="button">
-              Example button
-            </button>
-          </div>
+      <div class="d-grid">
+        <div>
+          <h1 class="display-2 mt-4 pt-4 mb-4">Découvez en plus</h1>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 mb-4">
-          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-            <h2>Add borders</h2>
-            <p>
-              Or, keep it light and add a border for some added definition to
-              the boundaries of your content. Be sure to look under the hood at
-              the source HTML here as we've adjusted the alignment and sizing of
-              both column's content for equal-height.
-            </p>
-            <button class="btn btn-outline-secondary" type="button">
-              Example button
-            </button>
+        <div class="row align-items-md-stretch mb-4">
+          <div class="col-12 col-sm-12 col-md-6 mb-4">
+            <div class="h-100 p-5 text-bg-dark rounded-3">
+              <h2>Change the background</h2>
+              <p>
+                Swap the background-color utility and add a `.text-*` color
+                utility to mix up the jumbotron look. Then, mix and match with
+                additional component themes and more.
+              </p>
+              <button class="btn btn-outline-light" type="button">
+                Example button
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 mb-4">
+            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+              <h2>Add borders</h2>
+              <p>
+                Or, keep it light and add a border for some added definition to
+                the boundaries of your content. Be sure to look under the hood
+                at the source HTML here as we've adjusted the alignment and
+                sizing of both column's content for equal-height.
+              </p>
+              <button class="btn btn-outline-secondary" type="button">
+                Example button
+              </button>
+            </div>
           </div>
         </div>
       </div>

@@ -3,5 +3,16 @@
 //$enable-shadows: true;
 //$prefix: "mo-";
 
+:root {
+  --body-bs-body-color: "#302426";
+  --bs-body-color-rgb: "48, 36, 38";
+}
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+.girls {
+  border-radius: 0 !important;
+  img {
+    border-radius: 0 !important;
+  }
+}
