@@ -4,12 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap w/ Vite</title>
-    <script type="module" src="./js/main.js"></script>
   </head>
   <body class="bg-black">
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html">[nom du restaurant]</a>
           <button
@@ -42,7 +41,7 @@
       <!-- Navbar -->
       <!-- Jumbotron -->
       <div
-        class="text-center text-bg-dark p-2 py-4 style="
+        class="text-center text-bg-dark mt-5 p-2 py-4 style="
         style="
           background-image: url('./assets/images/wp.svg');
           background-size: cover;
@@ -60,17 +59,17 @@
             notre restaurant exquis, où chaque plat raconte une histoire
             différente de la cuisine internationale
           </p>
-          <div
-            class="d-grid gap-2 pb-4 d-sm-flex justify-content-sm-center mb-5"
-          >
-            <button
-              type="button"
-              class="btn btn-outline-light btn-lg px-4 me-sm-3"
+          <div class="d-flex gap-2 pb-4 justify-content-center mb-5">
+            <a href="/views/menu.html"
+              ><button
+                type="button"
+                class="btn btn-outline-light btn-lg px-4 me-sm-3"
+              >
+                Menu
+              </button></a
             >
-              Primary button
-            </button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Secondary
+              Contact
             </button>
           </div>
         </div>
@@ -146,13 +145,10 @@
           </div>
         </div>
       </div>
-      <a href="./views/menu.html">menu</a>
-      <a href="./views/pictures.html">pictures</a>
-      <a href="./views/restaurants.html">restaurants</a>
-      <a href="./views/contact.html">contact</a>
       <footer class="pt-3 mt-4 text-body-secondary text-center border-top">
         Matthieu Gravy &copy; 2023
       </footer>
     </div>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
