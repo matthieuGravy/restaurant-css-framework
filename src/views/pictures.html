@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap w/ Vite</title>
   </head>
-  <body>
-    <header>
+  <body class="bg-white">
+    <header class="fixed">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html">[nom du restaurant]</a>
@@ -38,12 +38,81 @@
         </div>
       </nav>
     </header>
-    <h2>pictures</h2>
-    <div class="paginator-1"></div>
+    <div class="container">
+      <h2 class="pt-5 pb-2">pictures</h2>
+      <p class="pb-2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto qui
+        illum vitae obcaecati delectus non debitis quis, unde esse et
+        consectetur voluptates magni cumque veniam tenetur magnam ipsam atque id
+        autem quibusdam possimus fugit rem. Quia vel dicta non iste labore,
+        maxime, animi aperiam, sit eius atque aliquam cum minus!
+      </p>
+      <section
+        id="pagine-1"
+        class="paginator-1 row text-center justify-content-center gy-3 pb-3"
+      >
+        <article
+          class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black"
+        >
+          <img
+            src="../assets/svg/area-3.svg"
+            class="card-img-top pt-2"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Area 1</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </article>
+        <article
+          class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black"
+        >
+          <img
+            src="../assets/svg/area-2.svg"
+            class="card-img-top pt-2"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Area 2</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </article>
+        <article
+          class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black"
+        >
+          <img src="../assets/svg/area-1.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Are 3</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
     <nav aria-label="groupe-image">
       <ul class="pagination justify-content-center">
         <li class="page-item">
-          <a class="page-link page-1" href="#">1</a>
+          <a class="page-link page-1 active" href="#pagine-1">1</a>
         </li>
         <li class="page-item">
           <a class="page-link page-2" href="#">2</a>
