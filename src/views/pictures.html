@@ -6,7 +6,7 @@
     <title>Bootstrap w/ Vite</title>
   </head>
   <body class="bg-white">
-    <header class="fixed">
+    <header class="fixed-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html">[nom du restaurant]</a>
@@ -38,21 +38,23 @@
         </div>
       </nav>
     </header>
-    <div class="container">
-      <h2 class="pt-5 pb-2">pictures</h2>
-      <p class="pb-2">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto qui
-        illum vitae obcaecati delectus non debitis quis, unde esse et
-        consectetur voluptates magni cumque veniam tenetur magnam ipsam atque id
-        autem quibusdam possimus fugit rem. Quia vel dicta non iste labore,
-        maxime, animi aperiam, sit eius atque aliquam cum minus!
-      </p>
+    <div class="py-5">
+      <header class="bg-black text-white px-3 py-2">
+        <h2 class="display-3 py-4">pictures</h2>
+        <p class="pb-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto qui
+          illum vitae obcaecati delectus non debitis quis, unde esse et
+          consectetur voluptates magni cumque veniam tenetur magnam ipsam atque
+          id autem quibusdam possimus fugit rem. Quia vel dicta non iste labore,
+          maxime, animi aperiam, sit eius atque aliquam cum minus!
+        </p>
+      </header>
       <section
-        id="pagine-1"
-        class="paginator-1 row text-center justify-content-center gy-3 pb-3"
+        id="card-1"
+        class="paginator-1 row text-center justify-content-center gy-3 pb-3 pt-4"
       >
         <article
-          class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black"
+          class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black pt-4"
         >
           <img
             src="../assets/svg/area-3.svg"
@@ -112,16 +114,16 @@
     <nav aria-label="groupe-image">
       <ul class="pagination justify-content-center">
         <li class="page-item">
-          <a class="page-link page-1 active" href="#pagine-1">1</a>
+          <a class="page-link page-1 active" href="#card-1">1</a>
         </li>
         <li class="page-item">
-          <a class="page-link page-2" href="#">2</a>
+          <a class="page-link page-2" href="#card-2">2</a>
         </li>
         <li class="page-item">
-          <a class="page-link page-3" href="#">3</a>
+          <a class="page-link page-3" href="#card-3">3</a>
         </li>
         <li class="page-item">
-          <a class="page-link page-4" href="#">4</a>
+          <a class="page-link page-4" href="#card-4">4</a>
         </li>
       </ul>
     </nav>
