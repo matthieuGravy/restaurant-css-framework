@@ -26,6 +26,15 @@
     }
   }
 }
+//changer le primary-btn degeu par ça
+.itsbutton {
+  border: #000000;
+  &:hover {
+    background-color: #000000 o !important;
+    color: #ffffff !important;
+  }
+}
+
 .overflowx {
   overflow-x: hidden;
 }
