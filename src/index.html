@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap w/ Vite</title>
   </head>
-  <body class="bg-black">
+  <body>
     <header>
-      <!-- Navbar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand pe-5" href="index.html"
@@ -41,8 +40,6 @@
           </div>
         </div>
       </nav>
-      <!-- Navbar -->
-      <!-- Jumbotron -->
       <div
         class="text-center text-bg-dark pt-5 px-2 py-4 style="
         style="
@@ -63,7 +60,7 @@
             International Cuisine.
           </p>
           <div class="d-flex gap-2 pb-4 justify-content-center mb-5">
-            <a href="views/menu.html"
+            <a href="#menus"
               ><button
                 type="button"
                 class="btn btn-outline-light btn-lg px-4 me-sm-3"
@@ -77,10 +74,8 @@
           </div>
         </div>
       </div>
-      <!-- Jumbotron -->
     </header>
-
-    <div class="card text-bg-dark girls">
+    <div class="card text-bg-dark girls border-0">
       <img
         src="./assets/images/client-2.jpg"
         class="card-img"
@@ -88,70 +83,146 @@
         height=""
         width="500"
       />
-      <div class="card-img-overlay">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
-        <p class="card-text"><small>Last updated 3 mins ago</small></p>
-      </div>
     </div>
 
-    <div class="container py-4">
-      <!--
+    <div class="container bg-body-tertiary py-4 my-5">
       <div class="p-5 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <h1 class="display-5 fw-bold pb-3">
+            The Best Franchise of 2023, Thanks to You!
+          </h1>
           <p class="col-md-8 fs-4">
-            Using a series of utilities, you can create this jumbotron, just
-            like the one in previous versions of Bootstrap. Check out the
-            examples below for how you can remix and restyle it to your liking.
+            It's thanks to you, our fantastic customers, that we've been voted
+            "Best Franchise of the Year 2023." Your trust and feedback have been
+            our inspiration.
           </p>
-          <button class="btn btn-primary btn-lg" type="button">
+          <p class="col-md-8 fs-4">
+            This year has been incredible, and we take pride in our journey
+            together. Your unwavering support drives us to continue serving you
+            with passion.
+          </p>
+          <p class="col-md-8 fs-4">
+            Thank you for being a part of our success. We look forward to
+            continuing this journey together!
+          </p>
+          <button class="btn btn-outline-secondary" type="button">
             Example button
           </button>
         </div>
       </div>
-    -->
-      <div class="container">
-        <div>
-          <h1 class="display-3 mt-4 pt-4 mb-4 text-white">Our events</h1>
-        </div>
-        <div class="row align-items-md-stretch mb-4">
-          <div class="col-12 col-sm-12 col-md-6 mb-4">
-            <div class="h-100 p-5 text-bg-dark rounded-3">
-              <h2>Only girls</h2>
-              <p>
-                Feeling like chatting about gossip and Josephine from
-                accounting? This evening is for you, and it happens every
-                Tuesday.
-              </p>
-              <button class="btn btn-outline-light" type="button">
-                Example button
-              </button>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 mb-4">
-            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-              <h2>Valentine's Day</h2>
-              <p>
-                For us, love is an everyday affair, but every Sunday of the
-                month, we've decided it's Valentine's Day. Let the gift-giving
-                begin!
-              </p>
-              <button class="btn btn-outline-secondary" type="button">
-                Example button
-              </button>
-            </div>
-          </div>
-          <!-- COLLAPSE A AJOUTER ICI Pour les events animés-->
-        </div>
-      </div>
-      <footer class="pt-3 mt-4 text-body-secondary text-center border-top">
-        Matthieu Gravy &copy; 2023
-      </footer>
     </div>
+    <!--Cartes à faire évoluer-->
+    <main id="menus" class="container-fluid py-5 bg-black">
+      <section class="container text-white py-5 px-2 py-4">
+        <h1 class="display-2 pt-5">Our Kitchens</h1>
+        <div class="col-lg-6">
+          <p class="lead mb-4">
+            An Enchanted Place Where World Flavors Unite to Create an
+            Unforgettable Culinary Experience. Embark on a Culinary World Tour
+            and Let Your Taste Buds Explore the Flavors of the Globe in Our
+            Exquisite Restaurant, Where Every Dish Tells a Different Story of
+            International Cuisine.
+          </p>
+        </div>
+      </section>
+      <article class="pt-5 row justify-content-center">
+        <figure
+          class="bg-black col-md-4 col-sm-8 card text-white border-0 menuss"
+        >
+          <img
+            src="../assets/images/1.png"
+            class="card-img rounded-5"
+            alt="pasta illustration"
+          />
+          <article
+            class="card-img-overlay text-center d-flex flex-column-reverse"
+          >
+            <div>
+              <a href="./views/menu.html" class="btn btn-outline-light btn-lg"
+                >Menu</a
+              >
+            </div>
+          </article>
+        </figure>
+        <figure
+          class="bg-black col-md-4 col-sm-8 card text-white border-0 menuss"
+        >
+          <img
+            height=""
+            width=""
+            src="../assets/images/2.png"
+            class="card-img rounded-5"
+            alt="..."
+          />
+          <article
+            class="card-img-overlay text-center d-flex flex-column-reverse"
+          >
+            <div>
+              <a
+                href="./picture-1.html#article"
+                class="btn btn-outline-light btn-lg"
+                >Eco-friendly menu</a
+              >
+            </div>
+          </article>
+        </figure>
+        <figure
+          class="bg-black col-md-4 col-sm-8 card text-white border-0 menuss"
+        >
+          <img
+            src="../assets/images/3.png"
+            class="card-img rounded-5"
+            alt="..."
+          />
+          <article
+            class="card-img-overlay text-center d-flex flex-column-reverse"
+          >
+            <div>
+              <a href="#" class="btn btn-outline-light btn-lg"
+                >Customized menu</a
+              >
+            </div>
+          </article>
+        </figure>
+      </article>
+    </main>
+    <div class="container pt-5">
+      <div>
+        <h1 class="display-3 mt-4 pt-4 mb-4">Our events</h1>
+      </div>
+      <div class="row align-items-md-stretch mb-4">
+        <div class="col-12 col-sm-12 col-md-6 mb-4">
+          <div class="h-100 p-5 text-bg-dark rounded-3">
+            <h2>Only girls</h2>
+            <p>
+              Feeling like chatting about gossip and Josephine from accounting?
+              This evening is for you, and it happens every Tuesday.
+            </p>
+            <button class="btn btn-outline-light" type="button">
+              Example button
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 mb-4">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3 border-0">
+            <h2>Valentine's Day</h2>
+            <p>
+              For us, love is an everyday affair, but every Sunday of the month,
+              we've decided it's Valentine's Day. Let the gift-giving begin!
+            </p>
+            <button class="btn btn-outline-secondary" type="button">
+              Example button
+            </button>
+          </div>
+        </div>
+        <!-- COLLAPSE A AJOUTER ICI Pour les events animés-->
+      </div>
+    </div>
+
+    <footer class="pt-3 mt-4 text-body-secondary text-center border-top">
+      Matthieu Gravy &copy; 2023
+    </footer>
+
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

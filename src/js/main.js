@@ -4,8 +4,12 @@ import "../scss/style.scss";
 // Import all of Bootstrap's JS
 import * as bootstrap from "bootstrap";
 
+// demande trop de ressources Adios Lipidos ??
+// ajouter des images plus légère et faire nouveau test sinon :
+// #1.Manque de tps : En attente : soit faire html avec des pages mais beurk
+// #2.Temps nécessaire : soit injecter les images à la Vue {{}} avec des boucles : si page 1 alors [groupe 1] -> itération
+/*
 //liens images page 1
-
 import area1 from "../assets/svg/area-1.svg";
 import area2 from "../assets/svg/area-2.svg";
 import area3 from "../assets/svg/area-3.svg";
@@ -266,3 +270,4 @@ page4.addEventListener("click", () => {
 </article>
     `;
 });
+*/

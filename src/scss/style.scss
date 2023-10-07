@@ -29,3 +29,11 @@
 .overflowx {
   overflow-x: hidden;
 }
+.menuss {
+  filter: grayscale(100%);
+  transition: 0.5s;
+  &:hover {
+    transform: scale(0.95);
+    filter: grayscale(0%);
+  }
+}
