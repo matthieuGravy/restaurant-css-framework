@@ -1,5 +1,5 @@
 // Import our custom CSS
-import "../scss/style.scss";
+import "./style.scss";
 
 // Import all of Bootstrap's JS
 import * as bootstrap from "bootstrap";
@@ -10,21 +10,21 @@ import * as bootstrap from "bootstrap";
 // #2.Temps nécessaire : soit injecter les images à la Vue {{}} avec des boucles : si page 1 alors [groupe 1] -> itération
 
 //liens images page 1
-import area1 from "../assets/gallery/area-1.png";
-import area2 from "../assets/gallery/area-2.png";
-import area3 from "../assets/gallery/area-3.png";
+import area1 from "/assets/area-1.png";
+import area2 from "/assets/area-2.png";
+import area3 from "/assets/area-3.png";
 //liens image page 2
-import custom1 from "../assets/gallery/custom-1.png";
-import custom2 from "../assets/gallery/custom-2.png";
-import custom3 from "../assets/gallery/custom-3.png";
+import custom1 from "/assets/custom-1.png";
+import custom2 from "/assets/custom-2.png";
+import custom3 from "/assets/custom-3.png";
 //Liens images page 3
-import staf1 from "../assets/gallery/staf-1.png";
-import staf2 from "../assets/gallery/staf-2.png";
-import staf3 from "../assets/gallery/staf-3.png";
+import staf1 from "/assets/staf-1.png";
+import staf2 from "/assets/staf-2.png";
+import staf3 from "/assets/staf-3.png";
 //liens page 4
-import meal1 from "../assets/gallery/pizza.png";
-import meal2 from "../assets/gallery/pasta.png";
-import meal3 from "../assets/gallery/chocolate.png";
+import meal1 from "/assets/pizza.png";
+import meal2 from "/assets/pasta.png";
+import meal3 from "/assets/chocolate.png";
 
 const city1 = "Bruges, Belgium";
 const city2 = "Brussels, Belgium";
