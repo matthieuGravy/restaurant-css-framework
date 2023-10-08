@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap w/ Vite</title>
     <script type="module" crossorigin src="/restaurant-css-framework/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <script type="module" crossorigin src="/restaurant-css-framework/assets/main-01c836f9.js"></script>
-    <link rel="stylesheet" href="/restaurant-css-framework/assets/main-6a56ec30.css">
+    <script type="module" crossorigin src="/restaurant-css-framework/assets/main-fd8f8c2d.js"></script>
+    <link rel="stylesheet" href="/restaurant-css-framework/assets/main-33928214.css">
   </head>
   <body>
     <header>
@@ -62,6 +62,7 @@
             Exquisite Restaurant, Where Every Dish Tells a Different Story of
             International Cuisine.
           </p>
+
           <div class="d-flex gap-2 pb-4 justify-content-center mb-5">
             <a
               href="#menus"
@@ -118,7 +119,7 @@
     </div>
     <!--Cartes à faire évoluer-->
     <main id="menus" class="container-fluid py-5 bg-black">
-      <section class="container text-white py-5 px-2 py-4">
+      <section class="container text-white py-4">
         <h1 class="display-2 pt-5">Our Kitchens</h1>
         <div class="col-lg-6">
           <p class="lead mb-4">
@@ -185,9 +186,15 @@
       </article>
     </main>
     <div class="container pt-5">
-      <div>
-        <h1 class="display-3 mt-4 pt-4 mb-4">Our Events</h1>
-      </div>
+      <section class="container py-4">
+        <h1 class="display-2 pt-5">Our Events</h1>
+        <div class="col-lg-6">
+          <p class="lead mb-4">
+            To cater to your desires, we organize events where encounters and
+            culinary delights blend to create a fiery atmosphere
+          </p>
+        </div>
+      </section>
       <div class="row align-items-md-stretch mb-4">
         <div class="col-12 col-sm-12 col-md-6 mb-4">
           <div class="h-100 p-5 text-bg-dark rounded-3">
@@ -196,24 +203,84 @@
               Feeling like chatting about gossip and Josephine from accounting?
               This evening is for you, and it happens every Tuesday.
             </p>
-            <button class="btn btn-outline-light" type="button">
+            <button
+              class="btn btn-outline-light"
+              type="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample1"
+              href="#friendship"
+            >
               Example button
             </button>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 mb-4">
-          <div class="h-100 p-5 bg-body-tertiary border rounded-3 border-0">
+        <section class="col-12 col-sm-12 col-md-6 mb-4">
+          <article class="h-100 p-5 bg-body-tertiary border rounded-3 border-0">
             <h2>Valentine's Day</h2>
             <p>
               For us, love is an everyday affair, but every Sunday of the month,
               we've decided it's Valentine's Day. Let the gift-giving begin!
             </p>
-            <button class="btn btn-outline-secondary" type="button">
-              Example button
-            </button>
+            <button class="btn btn-outline-secondary">Example button</button>
+          </article>
+        </section>
+        <section class="col-12 col-sm-12 col-md-6 mb-4">
+          <p id="friendship" class="collapse multi-collapse">
+            le texte de Friendship
+          </p>
+        </section>
+        <p class="d-inline-flex gap-1">
+          <a
+            class="btn btn-primary"
+            data-bs-toggle="collapse"
+            href="#multiCollapseExample1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample1"
+            >Toggle first element</a
+          >
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#multiCollapseExample2"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample2"
+          >
+            Toggle second element
+          </button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target=".multi-collapse"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample1 multiCollapseExample2"
+          >
+            Toggle both elements
+          </button>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body">
+                Some placeholder content for the first collapse component of
+                this multi-collapse example. This panel is hidden by default but
+                revealed when the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="card card-body">
+                Some placeholder content for the second collapse component of
+                this multi-collapse example. This panel is hidden by default but
+                revealed when the user activates the relevant trigger.
+              </div>
+            </div>
           </div>
         </div>
-        <!-- COLLAPSE A AJOUTER ICI Pour les events animés-->
       </div>
     </div>
 
