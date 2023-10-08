@@ -3,10 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap w/ Vite</title>
+    <title>IGK | Welcome</title>
   </head>
   <body>
-    <header>
+    <header
+      class="pt-5 container-fluid bg-black"
+      style="
+        background-image: url('./assets/wp.svg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: none;
+        height: auto;
+      "
+    >
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand pe-5" href="./index.html"
@@ -29,7 +38,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/"
+              <a class="nav-link active" aria-current="page" href="./index.html"
                 >Welcome</a
               >
               <a class="nav-link" href="menu.html">Menu</a>
@@ -40,16 +49,7 @@
           </div>
         </div>
       </nav>
-      <div
-        class="text-center text-bg-dark pt-5 px-2 py-4 style="
-        style="
-          background-image: url('./assets/wp.svg');
-          background-size: cover;
-          background-position: center;
-          background-repeat: none;
-          height: auto;
-        "
-      >
+      <div class="text-center text-white pt-5 py-4">
         <h1 class="display-2 pt-5">Discover It's Gravy Kitchens</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
