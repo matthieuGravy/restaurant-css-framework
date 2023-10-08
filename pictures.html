@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap w/ Vite</title>
     <script type="module" crossorigin src="/restaurant-css-framework/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <script type="module" crossorigin src="/restaurant-css-framework/assets/main-fd8f8c2d.js"></script>
-    <link rel="stylesheet" href="/restaurant-css-framework/assets/main-33928214.css">
+    <script type="module" crossorigin src="/restaurant-css-framework/assets/main-b1452fa7.js"></script>
+    <link rel="stylesheet" href="/restaurant-css-framework/assets/main-4deaf798.css">
   </head>
-  <body class="bg-white">
-    <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body>
+    <header class="pt-5 container-fluid bg-black">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand pe-5" href="index.html"
             ><img
@@ -46,27 +46,31 @@
           </div>
         </div>
       </nav>
-    </header>
-    <article class="pt-5 overflowx">
-      <section class="bg-black text-center text-white py-5 px-2 py-4">
-        <h1 class="display-2 pt-5">Visual Delights</h1>
-        <div class="col-lg-6 mx-auto">
+      <section class="bg-black text text-white py-5 px-2 container">
+        <h1 class="display-2 pt-5 pb-2">Visual Delights</h1>
+        <article class="col-lg-6">
           <p class="lead mb-4">
             Cooking is an art, and for us, art is about creating an environment
             that allows us to share the flavors of the world together. Our
             happiness is you, and pictures often speak louder than words.
           </p>
-        </div>
+        </article>
       </section>
+    </header>
+    <main class="pt-5">
       <section
         id="card"
-        class="paginator-1 row text-center justify-content-center gy-3 pb-3 pt-4"
+        class="paginator-1 row text-center justify-content-center gy-3 pb-3"
       >
-        <article
-          class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black pt-4"
+        <figure
+          class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black"
         >
-          <img src="/restaurant-css-framework/assets/area-3-9632eff6.png" class="card-img-top pt-2" alt="" />
-          <div class="card-body">
+          <img
+            src="/restaurant-css-framework/assets/area-3-9632eff6.png"
+            class="card-img-top pt-2"
+            alt="Image of area-1: a trendy, contemporary space focused on metallic materials to enhance the room. "
+          />
+          <article class="card-body">
             <h5 class="card-title">Area 1</h5>
             <p class="card-text">
               Area 1 is the newly opened restaurant that's already causing a
@@ -75,13 +79,17 @@
             <p class="card-text">
               <small class="text-body-secondary">Bruges, Belgium</small>
             </p>
-          </div>
-        </article>
-        <article
+          </article>
+        </figure>
+        <figure
           class="card border-0 col-12 col-sm-10 col-md-8 bg-light text-black"
         >
-          <img src="/restaurant-css-framework/assets/area-2-be83467c.png" class="card-img-top pt-2" alt="..." />
-          <div class="card-body">
+          <img
+            src="/restaurant-css-framework/assets/area-2-be83467c.png"
+            class="card-img-top pt-2"
+            alt="Image of area-2: a fantastic room with lighting fixtures above the tables, tiled floors, and comfortable tables and armchairs."
+          />
+          <article class="card-body">
             <h5 class="card-title">Area 2</h5>
             <p class="card-text">
               Area 2 is exactly that; it all began there, and now we continue
@@ -90,13 +98,17 @@
             <p class="card-text">
               <small class="text-body-secondary">Brussels, Belgium</small>
             </p>
-          </div>
-        </article>
-        <article
+          </article>
+        </figure>
+        <figure
           class="card border-0 col-12 col-sm-10 col-md-8 col-xl-8 bg-light text-black"
         >
-          <img src="/restaurant-css-framework/assets/area-1-0175fc92.png" class="card-img-top" alt="..." />
-          <div class="card-body">
+          <img
+            src="/restaurant-css-framework/assets/area-1-0175fc92.png"
+            class="card-img-top pt-2"
+            alt="Area 3: a warm ambiance, gray tiles, and smooth leather chairs."
+          />
+          <article class="card-body">
             <h5 class="card-title">Are 3</h5>
             <p class="card-text">
               Area 3 is the go-to place morning, noon, and night. Why bother
@@ -105,26 +117,26 @@
             <p class="card-text">
               <small class="text-body-secondary">Ghent, Belgium</small>
             </p>
-          </div>
-        </article>
+          </article>
+        </figure>
       </section>
-    </article>
-    <nav aria-label="groupe-image">
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link page-1 active" href="#card">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link page-2" href="#card">2</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link page-3" href="#card">3</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link page-4" href="#card">4</a>
-        </li>
-      </ul>
-    </nav>
+      <nav aria-label="groupe-image ">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link page-1 active" href="#card">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link page-2" href="#card">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link page-3" href="#card">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link page-4" href="#card">4</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
     <footer class="pt-3 mt-4 text-body-secondary text-center border-top">
       Matthieu Gravy &copy; 2023
     </footer>
