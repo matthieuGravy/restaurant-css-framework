@@ -1,6 +1,11 @@
 import path from "path";
+import { resolve } from "path";
+import { defineConfig } from "vite";
 
-export default {
+// https://vitejs.dev/config/
+// https://vitejs.fr/guide/static-deploy.html
+export default defineConfig({
+  base: "/restaurant-css-framework/",
   root: path.resolve(__dirname, "src"),
   resolve: {
     alias: {
@@ -9,8 +14,18 @@ export default {
   },
   build: {
     outDir: "../dist",
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "src/main.js"),
+        index: path.resolve(__dirname, "src/index.html"),
+        menu: path.resolve(__dirname, "src/menu.html"),
+        pictures: path.resolve(__dirname, "src/pictures.html"),
+        contact: path.resolve(__dirname, "src/contact.html"),
+        restaurants: path.resolve(__dirname, "src/restaurants.html"),
+      },
+    },
+    server: {
+      port: 8040,
+    },
   },
-  server: {
-    port: 8080,
-  },
-};
+});
