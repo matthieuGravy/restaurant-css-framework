@@ -49,3 +49,6 @@
     filter: grayscale(0%);
   }
 }
+input:invalid {
+  border-color: red;
+}
