@@ -192,7 +192,7 @@
         </div>
       </section>
       <div class="row align-items-md-stretch mb-4">
-        <div class="col-12 col-sm-12 col-md-6 mb-4">
+        <section class="col-12 col-sm-12 col-md-6 mb-4">
           <div class="h-100 p-5 text-bg-dark rounded-3">
             <h2>Friendship Day</h2>
             <p>
@@ -204,13 +204,22 @@
               type="button"
               data-bs-toggle="collapse"
               aria-expanded="false"
-              aria-controls="multiCollapseExample1"
+              aria-controls="friendship"
               href="#friendship"
             >
-              Example button
+              About Gossip Night
             </button>
+            <article id="friendship" class="collapse">
+              <h6 class="pt-4">
+                Gossip Night: Chatting About Josephine from Accounting!
+              </h6>
+              <p class="">
+                Tuesday evenings are the perfect opportunity to chat about
+                gossip and Josephine from the accounting department. Join us!
+              </p>
+            </article>
           </div>
-        </div>
+        </section>
         <section class="col-12 col-sm-12 col-md-6 mb-4">
           <article class="h-100 p-5 bg-body-tertiary border rounded-3 border-0">
             <h2>Valentine's Day</h2>
@@ -218,65 +227,27 @@
               For us, love is an everyday affair, but every Sunday of the month,
               we've decided it's Valentine's Day. Let the gift-giving begin!
             </p>
-            <button class="btn btn-outline-secondary">Example button</button>
+            <button
+              class="btn btn-outline-secondary"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="valentine"
+              href="#valentine"
+            >
+              About Valentine's Day
+            </button>
+            <article id="valentine" class="collapse">
+              <h6 class="pt-4">
+                Monthly Love Celebration: Every Sunday is Valentine's Day!
+              </h6>
+              <p>
+                For us, love is an everyday affair, but every Sunday of the
+                month, we've decided it's Valentine's Day. Let the gift-giving
+                begin!
+              </p>
+            </article>
           </article>
         </section>
-        <section class="col-12 col-sm-12 col-md-6 mb-4">
-          <p id="friendship" class="collapse multi-collapse">
-            le texte de Friendship
-          </p>
-        </section>
-        <p class="d-inline-flex gap-1">
-          <a
-            class="btn btn-primary"
-            data-bs-toggle="collapse"
-            href="#multiCollapseExample1"
-            role="button"
-            aria-expanded="false"
-            aria-controls="multiCollapseExample1"
-            >Toggle first element</a
-          >
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#multiCollapseExample2"
-            aria-expanded="false"
-            aria-controls="multiCollapseExample2"
-          >
-            Toggle second element
-          </button>
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target=".multi-collapse"
-            aria-expanded="false"
-            aria-controls="multiCollapseExample1 multiCollapseExample2"
-          >
-            Toggle both elements
-          </button>
-        </p>
-        <div class="row">
-          <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample1">
-              <div class="card card-body">
-                Some placeholder content for the first collapse component of
-                this multi-collapse example. This panel is hidden by default but
-                revealed when the user activates the relevant trigger.
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-              <div class="card card-body">
-                Some placeholder content for the second collapse component of
-                this multi-collapse example. This panel is hidden by default but
-                revealed when the user activates the relevant trigger.
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
