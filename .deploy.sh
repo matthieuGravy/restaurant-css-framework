@@ -24,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # si vous déployez sur https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:matthieuGravy/restaurant-css-framework.git main:gh-deploy
+git push -f git@github.com:matthieuGravy/restaurant-css-framework.git main:gh-deploy-final
 
 cd -
