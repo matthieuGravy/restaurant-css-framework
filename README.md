@@ -136,10 +136,3 @@ No, I could have sped up the tasks by using a JavaScript framework to reuse a ju
 
 </details>
 <br />
-<details>
-<summary> Mobile
-</summary>
-![MobileWelcome](/src/assets/mobile-welcome.png)![MobilepMenu](/src/assets/mobile-menu.png)![MobilePictures](/src/assets/mobile-picutres.png)
-![MobileRestaurants](/src/assets/mobile-restaurants.png)![MobileContact](/src/assets/mobile-contact.png)
-
-</details>

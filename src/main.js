@@ -84,7 +84,7 @@ page1.addEventListener("click", () => {
 >
   <img   src="${area3}" class="card-img-top pt-2" alt="..." />
   <article class="card-body">
-    <h5 class="card-title">Are 3</h5>
+    <h5 class="card-title">Area 3</h5>
     <p class="card-text">
     Area 3 is the go-to place morning, noon, and night. Why bother opening your fridge?
     </p>
