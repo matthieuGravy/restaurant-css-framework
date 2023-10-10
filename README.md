@@ -139,9 +139,6 @@ No, I could have sped up the tasks by using a JavaScript framework to reuse a ju
 <details>
 <summary> Mobile
 </summary>
-
-### Mobile
-
 ![MobileWelcome](/src/assets/mobile-welcome.png)![MobilepMenu](/src/assets/mobile-menu.png)![MobilePictures](/src/assets/mobile-picutres.png)
 ![MobileRestaurants](/src/assets/mobile-restaurants.png)![MobileContact](/src/assets/mobile-contact.png)
 
