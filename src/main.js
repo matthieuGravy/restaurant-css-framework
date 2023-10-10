@@ -270,3 +270,14 @@ page4.addEventListener("click", () => {
 </figure>
     `;
 });
+
+// Cookie Banner
+let cookie = document.getElementById("cookie");
+let cookieAgree = document.getElementById("cookie-agree");
+let cookieDecline = document.getElementById("cookie-decline");
+
+cookieAgree.addEventListener("click", () => {
+  cookie.classList.add("casper");
+  cookie.display = "none";
+});
+setTimeout(() => {}, 0);
