@@ -4,6 +4,20 @@ import "./style.scss";
 // Import all of Bootstrap's JS
 import * as bootstrap from "bootstrap";
 
+// Cookie Banner
+let cookie = document.getElementById("cookie");
+let cookieAgree = document.getElementById("cookie-agree");
+let cookieDecline = document.getElementById("cookie-decline");
+
+console.log(cookie);
+
+cookieAgree.addEventListener("click", () => {
+  cookie.classList.add("casper");
+});
+cookieDecline.addEventListener("click", () => {
+  cookie.classList.add("casper");
+});
+
 // demande trop de ressources Adios Lipidos ??
 // ajouter des images plus légère et faire nouveau test sinon :
 // #1.Manque de tps : En attente : soit faire html avec des pages mais beurk
@@ -270,14 +284,3 @@ page4.addEventListener("click", () => {
 </figure>
     `;
 });
-
-// Cookie Banner
-let cookie = document.getElementById("cookie");
-let cookieAgree = document.getElementById("cookie-agree");
-let cookieDecline = document.getElementById("cookie-decline");
-
-cookieAgree.addEventListener("click", () => {
-  cookie.classList.add("casper");
-  cookie.display = "none";
-});
-setTimeout(() => {}, 0);
