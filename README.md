@@ -94,7 +94,7 @@ As a solo creator for this project/document, I have utilized various resources f
 
 <br>
 
-> ### Images:
+### Images:
 
 > - **Canva** (https://www.canva.com/): I used Canva to create and customize visual elements such as graphics, infographics, and illustrations.
 > - **Pexels** (https://www.pexels.com/fr-fr/): I drew from Pexels' collection of high-quality images under the Creative Commons license to enhance my project.
@@ -102,12 +102,12 @@ As a solo creator for this project/document, I have utilized various resources f
 
 <br>
 
-> ### Icons:
+#### Icons:
 
 > - **Bootstrap Icons** (https://icons.getbootstrap.com/): I used Bootstrap Icons library to access a wide range of ready-to-use icons in my project.
 > - **Canva** (https://www.canva.com/): I also customized icons using Canva to meet my specific requirements.
 
-> I would like to express my gratitude to all these sources for their contributions to my project. Each one of them played an essential role in creating visually appealing and informative content.
+I would like to express my gratitude to all these sources for their contributions to my project. Each one of them played an essential role in creating visually appealing and informative content.
 
 ## Do I plan to continue the development of this project?
 
@@ -142,10 +142,7 @@ No, I could have sped up the tasks by using a JavaScript framework to reuse a ju
 
 ### Mobile
 
-![MobileWelcome](/src/assets/mobile-welcome.png)
-![MobilepMenu](/src/assets/mobile-menu.png)
-![MobilePictures](/src/assets/mobile-picutres.png)
-![MobileRestaurants](/src/assets/mobile-restaurants.png)
-![MobileContact](/src/assets/mobile-contact.png)
+![MobileWelcome](/src/assets/mobile-welcome.png)![MobilepMenu](/src/assets/mobile-menu.png)![MobilePictures](/src/assets/mobile-picutres.png)
+![MobileRestaurants](/src/assets/mobile-restaurants.png)![MobileContact](/src/assets/mobile-contact.png)
 
 </details>
