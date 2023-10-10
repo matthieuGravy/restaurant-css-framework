@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-3cfb730f.js";import"./main-d8197871.js";const c=document.getElementById("cookie"),o=document.getElementById("cookie-agree"),n=document.getElementById("cookie-decline");function e(){c.classList.add("casper")}function t(){n.addEventListener("click",e)}o.addEventListener("click",e);t();
