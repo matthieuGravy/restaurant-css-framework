@@ -287,6 +287,17 @@
           /></svg
       ></a>
     </footer>
+    <script type="module">
+      import {
+        cookie,
+        cookieAgree,
+        addCasperClass,
+        addDeclineHandler,
+      } from "./cookieBanner.js";
+
+      cookieAgree.addEventListener("click", addCasperClass);
+      addDeclineHandler(); // Si vous avez besoin de gérer le bouton "Decline"
+    </script>
 
     <script type="module" src="./main.js"></script>
   </body>
