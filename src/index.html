@@ -287,18 +287,23 @@
           /></svg
       ></a>
     </footer>
-    <script type="module">
-      import {
-        cookie,
-        cookieAgree,
-        addCasperClass,
-        addDeclineHandler,
-      } from "./cookieBanner.js";
+    <script>
+      const cookie = document.getElementById("cookie");
+      const cookieAgree = document.getElementById("cookie-agree");
+      const cookieDecline = document.getElementById("cookie-decline");
 
-      cookieAgree.addEventListener("click", addCasperClass);
-      addDeclineHandler(); // Si vous avez besoin de gérer le bouton "Decline"
+      function addCasperClass() {
+        cookie.classList.add("casper");
+      }
+
+      if (cookieAgree) {
+        cookieAgree.addEventListener("click", addCasperClass);
+      }
+
+      if (cookieDecline) {
+        cookieDecline.addEventListener("click", addCasperClass);
+      }
     </script>
-
     <script type="module" src="./main.js"></script>
   </body>
 </html>
