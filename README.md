@@ -39,6 +39,34 @@ Throughout the project, the following supplementary guidelines were given:
 
 <br />
 
+## Additional Project Instructions
+
+Throughout the project, the following supplementary guidelines were given:
+
+- Implement a responsive form with conditional logic.
+- Prioritize speed and efficiency in both the development and deployment phases.
+- Incorporate a cookie banner.
+- Create a realistic menu with allergen information or descriptions.
+- Employ a custom map feature.
+- Utilize Dribbble for reference or inspiration.
+- Ensure no broken links within the project.
+
+<br />
+
+## Coach's Feedback
+
+> ### Dante
+
+During our recent review, several adjustments were made to the menu design. Specifically, badges have been relocated to be positioned beneath the text, enhancing both readability and aesthetics.
+
+An alignment issue was identified in the captions, where inconsistencies between padding and margin were present. This issue has been resolved to ensure a consistent presentation.
+
+Furthermore, a typographical error was found in the gallery text of the "Picture" page. We have corrected this mistake to ensure a seamless user experience.
+
+It's worth noting that adding images requires adaptation to the new design, which can be time-consuming. Considering the integration of a "collapse" button to allow users to view the dish beneath the description is an option to explore, but it would also require adjustments to the images.
+
+<br />
+
 ## Lessons Learned
 
 1. **Proactive Approach:** I learned the importance of being proactive. At the beginning of the project, I invested a significant amount of time trying to set up Bootstrap cleanly and searching through the documentation for answers. While this initially seemed like a detour, it ended up being beneficial as I was able to help others with similar issues. Most importantly, this early effort paid off, as I didn't face any major setbacks during the deployment phase, which had initially seemed daunting. Running multiple tests beforehand really eased the finalization process, creating a sense of calm and positivity.
